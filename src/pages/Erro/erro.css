@@ -1,0 +1,28 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFound h1{
+    font-size: 100px;
+}
+
+.notFound a{
+    text-decoration: none;
+    color: white;
+    background-color:blueviolet;
+    padding: 10px;
+    transition: all 0.5s;
+    font-size: 25px;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+}
+
+.notFound a:hover{
+    border: 1px solid blueviolet;
+    background-color: white;
+    color:blueviolet;
+    box-shadow: 0 0 8px #00000040;
+}
